@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src="Portfolio.js"></script>
+        <title>Julius's Portfolio</title>
+    </head>
+    <body>
+        <!--Grid Container-->
+        <div id="pageContainer">
+            <div id="cell_1">
+                <div id="nameSection">
+                    <h1><i>Julius Perez</i></h1>
+                    <p id="occupation"><i>Electrical Engineer/Computer Scientist</i></p>
+                </div>
+                <div id="navSection">
+                    <nav>
+                        <ul id="navBar">
+                            <li id="navItem"><a href="Portfolio.html">Home</a></li>
+                            <li id="navItem"><a href="Education.html">Education</a></li>
+                            <li id="navItem"><a href="Projects.html">Projects</a></li>
+                            <li id="navItem"><a href="Work.html">Work</a></li>
+                            <li id="navItem"><a href="Media.html">Media</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="cell_2_projects">
+                <div id="projects">
+                    <select name="projectList" id="projectList" onLoad="selectionHandler()" onChange="selectionHandler()">
+                        <option value="project1">Data Cleaner Application</option>
+                        <option value="project2">Direct Patterning of Refractive Index (Research)</option>
+                        <option value="project3">Semi-automated LabVIEW Crane Model</option>
+                    </select>
+                </div>
+            </div>
+            <div id="cell_3">
+                <div id="projDescriptContainer">
+                    <h3><i>Project Description</i></h3>
+                    <p id="projDescript"></p>
+                </div>
+            </div>
+            <div id="cell_4_projPhotos">
+                <div id="projPhotos">
+                    <img src="" id="photoInput">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

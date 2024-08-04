@@ -1,0 +1,234 @@
+
+/* HOME PAGE */
+
+#pageContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: slategray;
+    justify-content: center;
+    text-align: center;
+}
+
+#cell_1 {
+    display: flex;
+    padding: 8px;
+    grid-column: 1/3;
+    text-align: center;
+    justify-content: center;
+}
+
+#pageContainer > #cell_1 > #nameSection {
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 5px 5px gray;
+}
+
+#pageContainer > #cell_1 > #navSection {
+    border: 2px solid gray;
+    border-radius: 25px;
+    padding-top:50px;
+    width: 500px;
+    box-shadow: 5px 5px gray;
+    margin-left: 10px;
+}
+
+#occupation {
+    font-size: large;
+}
+
+h1, h3 {
+    color: black;
+}
+
+#cell_2 > #contactInfo {
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 5px 5px gray;
+    margin-left: 190px;
+    text-align: center;
+}
+
+#cell_3 {
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 5px 5px gray;
+    text-align: center;
+    margin-right: 200px;
+}
+
+#aboutMe {
+    text-align: left;
+    padding: 10px;
+}
+#cell_4 {
+    grid-column: 1/3;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 1015px;
+    box-shadow: 5px 5px gray;
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+}
+
+li > a {
+    padding: 20px;
+    text-decoration: none;
+    color: slategray;
+}
+
+li a:hover {
+    color: white;
+    background-color: gray;
+}
+
+#profilePic {
+    border-radius: 35%;
+    width: 40%;
+    margin-left: 200px;
+}
+
+/* EDUCATION PAGE */
+
+#cell_2_education {
+    padding-right: 10px;
+}
+#cell_2_education > #collegeHistory {
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 5px 5px gray;
+    text-align: center;
+    margin-left: 205px;
+}
+
+#schoolList {
+    list-style-type: circle;
+    text-align: left;
+}
+
+#schoolItem {
+    display: block;
+    padding-left: 10px;
+}
+
+#courseList {
+    list-style-type: circle;
+    text-align: left;
+}
+
+#courseItem {
+    display: block;
+    padding-left: 10px;
+}
+
+#cell_4_eduPhotos {
+    grid-column: 1/3;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 1015px;
+    box-shadow: 5px 5px gray;
+    margin-left: 205px;
+    margin-top: 10px;
+}
+
+/* Projects Page */
+
+#cell_2_projects{
+    padding-right: 10px;
+    padding-top: 100px;
+}
+
+#cell_2_projects > div > #projectList {
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    margin-left: 200px;
+}
+
+#projDescript {
+    text-align: left;
+    justify-content: left;
+    padding: 10px;
+}
+
+#cell_4_projPhotos {
+    grid-column: 1/3;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 1015px;
+    box-shadow: 5px 5px gray;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+#photoInput {
+    width: 40%;
+    padding: 10px;
+}
+
+/* WORK PAGE */
+
+#cell_2_work {
+    grid-column: 1/3;
+    text-align: left;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 1015px;
+    box-shadow: 5px 5px gray;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#cell_2_work > * {
+    padding-left: 15px;
+}
+
+#cell_3_work {
+    grid-column: 1/3;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 1015px;
+    box-shadow: 5px 5px gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* MEDIA PAGE */
+
+#cell_2_media {
+    grid-column: 1/3;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 1015px;
+    box-shadow: 5px 5px gray;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#cell_3_media {
+    grid-column: 1/3;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 1015px;
+    box-shadow: 5px 5px gray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
